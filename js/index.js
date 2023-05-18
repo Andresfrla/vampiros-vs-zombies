@@ -149,7 +149,7 @@ function updateGame() {
     checkCollisions();
     drawInfo();
     gameOver();
-    WinTheGame();
+/*     WinTheGame(); */
     if (requestId){
         requestAnimationFrame(updateGame);
     }
