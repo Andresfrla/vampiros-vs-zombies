@@ -401,6 +401,9 @@ class Pumpkin {
         this.height = 30;
         this.img = new Image();
         this.img.src = './sources/PumpkinSprite.png';
+        this.img.onload = () => {
+            this.draw();
+        }
     }
 
     draw() {
