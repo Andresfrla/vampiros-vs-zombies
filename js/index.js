@@ -161,7 +161,7 @@ function gameOver(){
         ctx.strokeStyle = 'red'
         ctx.lineWidth = 2;
         ctx.strokeText('Game Over', canvas.width/2 -300, canvas.height/2)
-        ctx.drawImage(background.img2, canvas.width/2 -300, canvas.height/2 -300)
+        // ctx.drawImage(background.img2, canvas.width/2 -300, canvas.height/2 -300)
         requestId = cancelAnimationFrame(requestId)
     }
 }
