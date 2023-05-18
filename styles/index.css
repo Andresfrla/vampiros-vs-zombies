@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-image: url("/sources/Background.png")
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+div{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin: 200px;
+}
