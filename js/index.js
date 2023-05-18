@@ -205,7 +205,7 @@ class Background {
         this.width = canvas.width;
         this.height = canvas.height;
         this.img = new Image();
-        this.img.src = 'sources/Battleground.png';
+        this.img.src = './sources/Battleground.png';
         this.img.onload = () => {
             this.draw()
         }
@@ -232,9 +232,9 @@ class Vampire {
         this.jumpStreng = 14;
         this.hp = 3;
         this.img2 = new Image();
-        this.img2.src = 'sources/pumpkinPortal.png'
+        this.img2.src = './sources/pumpkinPortal.png'
         this.img = new Image();
-        this.img.src = 'sources/vampireSprite.png'
+        this.img.src = './sources/vampireSprite.png'
         this.img.onload = () => {
             this.draw()
         }
@@ -313,7 +313,7 @@ class Block {
         this.width = 150;
         this.height = 30;
         this.img = new Image();
-        this.img.src = 'sources/block.png';
+        this.img.src = './sources/block.png';
         this.img.onload = () => {
             this.draw()
         }
@@ -340,12 +340,12 @@ class Zombie {
         this.xDirection = 0.2;
         this.hp = 1;
         this.img = new Image();
-        this.img.src = 'sources/zombieSprite.png'
+        this.img.src = './sources/zombieSprite.png'
         this.img.onload = () => {
             this.draw();
         }
         this.imgInverted = new Image();
-        this.imgInverted.src = 'sources/zombieSpriteInverted.png'
+        this.imgInverted.src = './sources/zombieSpriteInverted.png'
         this.imgInverted.onload = () => {
             this.draw();
         }
@@ -400,7 +400,7 @@ class Pumpkin {
         this.width = 30;
         this.height = 30;
         this.img = new Image();
-        this.img.src = 'sources/pumpkinSprite.png';
+        this.img.src = './sources/pumpkinSprite.png';
     }
 
     draw() {
