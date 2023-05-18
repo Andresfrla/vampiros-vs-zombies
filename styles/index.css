@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-image: url("/sources/Background.png")
+    background-image: url("sources/Background.png")
 }
 
 canvas {
