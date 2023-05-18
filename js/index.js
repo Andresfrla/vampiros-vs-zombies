@@ -400,7 +400,7 @@ class Pumpkin {
         this.width = 30;
         this.height = 30;
         this.img = new Image();
-        this.img.src = './sources/pumpkinSprite.png';
+        this.img.src = './sources/PumpkinSprite.png';
     }
 
     draw() {
